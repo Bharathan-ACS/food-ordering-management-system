@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# FastAPI / Python
+.pytest_cache/
+.coverage
+
+# Node / React
+node_modules/
+dist/
+build/
+
+# Vite
+.vite/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

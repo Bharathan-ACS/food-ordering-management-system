@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "axios": "^1.20.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-router-dom": "^7.18.4"
+  },
+  "name": "food-ordering-frontend",
+  "version": "1.0.0",
+  "private":true,
+  "type":"module",
+    "scripts": {
+      "dev": "vite",
+      "built": "vite build",
+      "preview": "vite preview"
+    },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.1",
+    "vite": "^8.3.0"
+  }
+}
