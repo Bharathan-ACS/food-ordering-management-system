@@ -1,9 +1,9 @@
 import bcrypt
 from datetime import datetime, timedelta, timezone
 from jose import jwt
+import os
 
-
-SECRET_KEY = "food-ordering-secret-key"
+SECRET_KEY = os.getenv("SECRET_KEY", "development-secret-key")
 ALGORITHM = "HS256"
 
 
