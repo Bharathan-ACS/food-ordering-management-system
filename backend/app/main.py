@@ -17,7 +17,8 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173","https://food-ordering-management-s-git-2af216-bharathan-a-c-ss-projects.vercel.app/"],
+    allow_origins=["http://localhost:5173","https://food-ordering-management-system-hazel.vercel.app",
+        "https://food-ordering-management-s-git-2af216-bharathan-a-c-ss-projects.vercel.app",],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
